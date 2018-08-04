@@ -1,0 +1,71 @@
+episode map01
+name "Project: ZoLee"
+
+map map01 "Cruel Fate"
+next map02
+secretnext map02
+lightning
+cluster 1
+outsidefog "aa aa aa"
+par 120
+music D_FNT
+
+clusterdef 1
+exittext "My family died
+Nothing left for me.
+I can't help but worry for
+my beloved town.
+
+Why did it end like this?
+I have a bad feeling about this.."
+music D_NTHND
+flat W28_8
+
+
+
+map map02 "My Beloved Town"
+next map03
+secretnext map03
+cluster 2
+par 120
+music D_BRKNG
+
+clusterdef 2
+exittext "Why did it end like this?
+Why do I need to suffer?
+
+Maybe this secret door will lead me to answers.."
+music D_NTHND
+flat W28_8
+
+
+
+
+map map03 "Secret Laboratory"
+next map04
+secretnext map04
+cluster 3
+outsidefog "aa aa aa"
+par 120
+music D_HST
+
+clusterdef 3
+exittext "Zombie scientists, and a giant Bull demon..
+I'm getting so close, but It still feels
+like, it was the beginning..
+
+Within the Portal I feel dizzy
+And guess where I popped out..
+
+...in Hell."
+music D_NTHND
+flat W28_8
+
+
+map map04 "The Satan's Homeland"
+next map05
+secretnext map05
+cluster 2
+outsidefog "aa aa aa"
+par 120
+music D_HLL

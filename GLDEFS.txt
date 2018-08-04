@@ -1,0 +1,92 @@
+Pointlight FusionShot
+{
+Color 1.0 0.0 1.0
+Size 30
+}
+
+Pointlight FusionShot2
+{
+Color 1.0 0.0 1.0
+Size 35
+}
+
+Pointlight FusionShot3
+{
+Color 0.7 0.0 0.7
+Size 30
+}
+
+Pointlight FusionShot4
+{
+Color 0.4 0.0 0.4
+Size 25
+}
+
+Object FusionShot
+{
+Frame FS03A { Light FusionShot }
+Frame FS03B { Light FusionShot }
+Frame FS03C { Light FusionShot2 }
+Frame FS03D { Light FusionShot3 }
+Frame FS03E { Light FusionShot4 }
+}
+
+BrightMap Sprite FSPIG1
+{
+Map BMFSPIG1
+DisableFullBright
+}
+
+BrightMap Sprite FSPIG2G8
+{
+Map BMFSPIG2
+DisableFullBright
+}
+
+BrightMap Sprite FSPIG3G7
+{
+Map BMBLACK
+DisableFullBright
+}
+
+BrightMap Sprite FSPIG4G6
+{
+Map BMBLACK
+DisableFullBright
+}
+
+BrightMap Sprite FSPIG5
+{
+Map BMBLACK
+DisableFullBright
+}
+
+BrightMap Sprite FSPIH1
+{
+Map BMFSPIH1
+DisableFullBright
+}
+
+BrightMap Sprite FSPIH2H8
+{
+Map BMFSPIH2
+DisableFullBright
+}
+
+BrightMap Sprite FSPIH3H7
+{
+Map BMFSPIH3
+DisableFullBright
+}
+
+BrightMap Sprite FSPIH4H6
+{
+Map BMBLACK
+DisableFullBright
+}
+
+BrightMap Sprite FSPIH5
+{
+Map BMBLACK
+DisableFullBright
+}

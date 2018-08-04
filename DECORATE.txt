@@ -1,0 +1,3 @@
+//Realm667 stuff
+#include "actors/decorate/Realm667.FemScient.txt"
+#include "actors/decorate/Realm667.FusionSpid.txt"
